@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: deployment
+  name: git-along-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
+      app: git-along
   template:
     metadata:
       labels:
-        app: nginx
+        app: git-along
     spec:
       containers:
-      - name: nginx
+      - name: git-along-container
         image: nginx:latest
         ports:
-        - containerPort: 80
+        - containerPort: 8080
