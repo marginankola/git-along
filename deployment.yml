@@ -21,4 +21,10 @@ spec:
         - name: ENVIRONMENT
           value: production
         - name: API_URL
-          value: https://api.git-along.com  
+          value: https://api.devopsteam.com
+        - name: DB_HOST
+          value: db.devopsteam.com
+        - name: DB_USER
+          value: admin
+        - name: DB_PASSWORD
+          value: password123
