@@ -21,4 +21,12 @@ spec:
         - name: ENVIRONMENT
           value: production
         - name: API_URL
-          value: https://api.git-along.com  
+          value: https://api.deployment.git-along.com  
+        - name: DATABASE_URL
+          value: postgres://postgres:postgres@postgres:5432/git_along_db
+        - name: LOG_LEVEL
+          value: info
+        - name: FEATURE_NEW_UI
+          value: true
+  
+          
