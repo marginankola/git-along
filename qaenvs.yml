@@ -1,0 +1,5 @@
+namespaces:
+  - name: qa
+    labels:
+      environment: qa
+      team: backend
